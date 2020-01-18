@@ -1,6 +1,6 @@
 Name:           relaxngDatatype
 Version:        1.0
-Release:        10.7%{?dist}
+Release:        11%{?dist}
 Summary:        RELAX NG Datatype API
 License:        BSD
 URL:            https://sourceforge.net/projects/relaxng
@@ -51,6 +51,9 @@ cp -pr doc/* $RPM_BUILD_ROOT%{_javadocdir}/%{name}
 %doc %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-11
+- Mass rebuild 2013-12-27
+
 * Fri Jul 12 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.0-10.7
 - Remove workaround for rpm bug #646523
 
